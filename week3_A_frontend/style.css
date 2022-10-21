@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #f4f6f6;
+}
+.box {background-color: wheat; padding: 2em; padding-top: 1em; }
+#header_title { text-align: center;}
+#header_paragraph {text-align: center;}
+#nav_list {text-align: center;}
+#nav_list li { background: transparent; padding: 0.7em; border-radius: 0.4em; background-color: black; color: white;  display: inline-block; }
+#nav_list li a {color: white; text-decoration: none;}
+#nav_list li a:hover {color: chocolate; text-decoration: none;}
+#button {background: chocolate; padding: 0.5em; border-radius: 0.4em;;}

@@ -1,0 +1,11 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: wheat;
+  font-size: 110%;
+}
+
+#input {border: 2px solid chocolate; margin-bottom: 0.8em;padding-let: 10em; border-radius: 0.2em; font-size: 110%; }
+#submit {background: black; color: white; padding: 0.8em; border-radius: 0.7em;}
+#nav li { margin: 0.3em; display: inline-block; padding: 0.5em;  border-radius: 0.4em; color: black; background: wheat;}
+#nav li a {text-decoration: none;}

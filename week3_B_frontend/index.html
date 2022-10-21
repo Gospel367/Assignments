@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header style='padding: 2em; background: black;'>
+    <h2 style='text-align: center; color: chocolate;'> User Authentication System</h2>
+    <ul id='nav' style='list-style-type: none; text-align: center;'>
+    <li> <a href='index.html'>Homepage </a> </li>
+        <li> <a href='index.html'>Registration </a> </li>
+            <li> <a href='login.html'> User Login </a> </li>
+    </ul>
+  </header>
+  <main style='padding: 2em; '>
+    <h3> Registration Form </h3>
+<form method ='POST' style ='' action="success.html">
+  
+  <label for="firstname">First Name: </label>
+  <input type="text" id="input" name="firstname" required><br>
+  
+    <label for="lastname">Last Name: </label>
+  <input type="text" id="input" name="lastname" required><br>
+
+    <label for="phone">Phone Number: </label>
+    <input type="tel" id="input" name="phone" required><br>
+    
+     <label for="username"> Username: </label>
+    <input type="text" id="input" name="username" required><br>
+    
+     <label for="password">Password: </label>
+    <input type="text" id="input" name="password" required><br>
+  
+    <label for="email">Email Address: </label>
+   <input type="email" id="input" name="email" required><br>
+  
+    <label for="gender">Gender (M/F): </label>
+  
+      <input type="radio" id="input" name="radio" value="Male">
+  <label for="male">Male</label>
+  <input type="radio" id="input" name="radio" value="Female" required>
+  <label for="female">Female</label><br>
+
+  <label for="dob">Date of Birth: </label>
+
+    <input type="date" id="input" name="dob" required><br>
+      <label for="color">Favourite Color: </label>
+
+    <input type="color" value="#000000" id="input" name="favourite_color" required><br>
+  <input id ='submit' type="submit" value="Submit">
+</form>
+  </main>
+<footer> <h3 style='color: chocolate; background-color: black;  padding:1.5em;text-align: center;'> UAS </footer>
+ 
+</body>
+
+</html>
